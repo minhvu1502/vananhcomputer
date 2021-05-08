@@ -9,7 +9,7 @@ import { ActivatedRoute, Params } from '@angular/router';
 export class ProductDetailComponent implements OnInit, AfterViewInit {
   urlComment = '';
   constructor(private route: ActivatedRoute) {
-    this.urlComment = 'http://localhost:4200/product-detail/' + this.route.snapshot.paramMap.get('id');
+    this.urlComment = 'https://minhvu1502.github.io/vananhcomputer/product-detail/' + this.route.snapshot.paramMap.get('id');
   }
 
   ngOnInit(): void {}

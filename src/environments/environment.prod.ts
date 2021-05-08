@@ -5,7 +5,7 @@ export const environment = {
   BASE_FILE_URL: 'https://localhost:44375/Resources/Images/',
   ALLOW_ANONYMOUS: '?_allow_anonymous=true',
   production: true,
-  useHash: true,
+  useHash: false,
   hmr: false,
   pro: {
     theme: 'light',
